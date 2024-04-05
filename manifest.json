@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "GMail_Opener",
+    "description": "Simple GMail shortcut",
+    "version": "1.0",
+    "icons": {
+        "16": "/images/16.png",
+        "48": "/images/48.png",
+        "128": "/images/128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "/images/16.png",
+            "48": "/images/48.png",
+            "128": "/images/128.png"
+        }
+    },
+    "background": {
+        "scripts": ["script.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
